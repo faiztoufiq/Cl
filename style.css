@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html {
+    background-color: antiquewhite;
+}
+
+#game {
+    text-align: center;
+    color: black;
+    border: 5px solid;
+    max-width: 400px;
+    margin: 10px auto;    
+}
+
+header, footer {
+    background-color: burlywood;
+    padding: 10px;
+}
+
+main {
+    margin: 10px auto;
+}
+
+.try {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left,
+.right {
+    display: flex;
+}
+
+.left > div,
+.right > div {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    margin: 5px;
+}
+
+/* Style for color circles */
+.color-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.blue { background-color: blue; }
+.yellow { background-color: yellow; }
+.orange { background-color: orange; }
+.green { background-color: green; }
+.violet { background-color: violet; }
+.purple { background-color: purple; }
+
+.feedback-circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin: 3px;
+}
